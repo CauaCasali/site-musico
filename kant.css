@@ -1,0 +1,172 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 84%);
+  color: #fff;
+}
+
+/* Cabeçalho */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+/* Títulos */
+h1, h3 {
+  color: #e50914;
+  font-family: 'Snell Roundhand', cursive;
+}
+
+/* Links */
+a {
+  background-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(84,16,16,1) 100%);
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f75b5b;
+}
+
+/* Biografia */
+.biography {
+  padding: 40px;
+  text-align: center;
+  font-size: larger;
+  font-family: cursive;
+}
+
+/* Discografia */
+.discography {
+  padding: 50px;
+}
+
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.album {
+  background-color: rgba(109, 72, 72, 0.49);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.album ul {
+  text-align: left;
+}
+
+.album:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Player de Vídeo/Áudio */
+.player {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.video-placeholder {
+  width: 100%;
+  max-width: 300px;
+  height: 150px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  border-radius: 8px;
+}
+
+/* Datas da Turnê */
+.tour-dates {
+  padding: 40px;
+  text-align: center;
+}
+
+.tour-dates ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tour-dates li {
+  background-color: #333;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* Formulário de Contato */
+.contact {
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+}
+
+button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f75b5b;
+}
+
+/* Rodapé */
+.footer-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #141414;
+}
+
+.footer-container a:hover {
+  color: #f75b5b;
+}
